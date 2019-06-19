@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	position: relative;
 	width: auto;
+	
 }
 body #page {
 	background: url("../images/bg-home.jpg") no-repeat scroll center top #000000;
@@ -12,6 +13,8 @@ body #page {
 	padding: 0;
 	width: auto;
 	z-index: 3;
+	right: 10px;
+	
 }
 a {
 	text-decoration: none;
@@ -296,7 +299,7 @@ img {
 	opacity: 0.7;
 }
 #body.home .body {
-	background-color: #630031;
+	background-color: #7fe2e6;
 	margin: 0;
 	min-height: 168px;
 	overflow: hidden;
@@ -310,7 +313,7 @@ img {
 	padding: 31px 10px 0;
 }
 #body.home .body div h1 {
-	color: #FFFFFF;
+	color: rgb(28, 32, 247);
 	display: block;
 	font-family: audiowide-regular-webfont;
 	font-size: 32px;
@@ -318,12 +321,12 @@ img {
 	line-height: 32px;
 	margin: 0 auto 24px;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
-	width: 780px;
+	width: 250px;
 }
 #body.home .body div p {
-	color: #ffffff;
+	color: #3c0de4;
 	display: block;
 	font-family: Arial;
 	font-size: 18px;
@@ -331,11 +334,12 @@ img {
 	line-height: 24px;
 	margin: 0 auto;
 	padding: 0;
-	text-align: center;
-	width: 780px;
+	text-align: left;
+	width: 200px;
 }
 #body.home .body div p a {
 	color: #ffffff;
+	
 	font-family: Arial;
 	font-size: 18px;
 	font-weight: normal;
@@ -557,7 +561,7 @@ img {
 	width: 820px;
 }
 #body.about .header div p {
-	color: #ffffff;
+	color: #FFFFFF;
 	display: block;
 	font-family: Arial;
 	font-size: 18px;
@@ -1392,7 +1396,7 @@ img {
 	width: 960px;
 }
 #footer .footnote div p {
-	color: #000000;
+	color: #370eca;
 	display: block;
 	font-family: Arial;
 	font-size: 12px;
@@ -1409,4 +1413,9 @@ img {
 }
 #wix a img {
 	width: 100%;
+}
+
+	
+.org{
+	display: flex;
 }
